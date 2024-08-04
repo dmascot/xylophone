@@ -1,16 +1,19 @@
 # xylophone
 
-Xylophone app
+Xylophone app, developed as a part of App-brewery course
 
-## Getting Started
+### Features
+- highlights the key being played
+- can play multiple keys i.e. multiple tap because each key has its own "AudioPlayer"
+- Sets Xylophone Bar height in descending order
+- Labels each key with specific note
+- Uses the "note" parameter to select the specific note to play for the bar, matching its label
 
-This project is a starting point for a Flutter application.
+**PS:** notes are not exactly same, i have only labeled them from note A to G, if someone with better 
+ears and, understanding of music let me know correct order, that be great
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Demo
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+![](assets/readme/xylophone.gif)
